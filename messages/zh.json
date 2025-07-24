@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "features": "功能",
+    "howItWorks": "原理", 
+    "screenshots": "截图",
+    "comingSoon": "即将发布"
+  },
+  "hero": {
+    "badge": "基于心理学的习惯改变应用",
+    "title": "Neverr",
+    "subtitle": "不止是戒掉，而是变更好",
+    "description": "通过\"自我语音明示\"重塑潜意识，让改变变得自然而然。不是\"戒除\"坏习惯，而是成为\"从来不做那些事\"的人。",
+    "comingSoon": "即将发布 - Coming Soon",
+    "learnMore": "了解更多"
+  },
+  "philosophy": {
+    "title": "改变的关键在于心理认知",
+    "subtitle": "Neverr 基于认知心理学原理，通过正面的自我声明来重新定义你的身份认知",
+    "wrong": "我要戒烟",
+    "wrongDesc": "这种表达暗示你本质上是个吸烟者，只是在努力\"戒除\"",
+    "right": "我从来不吸烟",
+    "rightDesc": "这种表达重新定义了你的身份认知，你本质上就是不吸烟的人",
+    "cardTitle": "潜意识重塑原理",
+    "cardDesc": "当你用自己的声音反复说出\"我从来不...\"这样的声明时：",
+    "cardPoints": [
+      "大脑会逐渐接受这个新的身份认知",
+      "潜意识开始自动排斥相关的不良行为",
+      "改变变得更加自然和持久"
+    ]
+  },
+  "features": {
+    "title": "核心功能",
+    "subtitle": "简单而强大的工具，帮助你建立新的身份认知，实现持久的行为改变",
+    "items": [
+      {
+        "title": "智能目标创建",
+        "description": "选择预设习惯分类或自定义输入，系统自动生成个性化的正面声明语句"
+      },
+      {
+        "title": "语音录制",
+        "description": "用你自己的声音录制个性化声明，因为自己的声音最能影响潜意识"
+      },
+      {
+        "title": "每日练习",
+        "description": "每天播放录制的语音进行打卡练习，通过重复强化新的身份认知"
+      },
+      {
+        "title": "进度统计",
+        "description": "直观的数据展示连续打卡天数、完成率等关键指标，激励持续进步"
+      },
+      {
+        "title": "智能提醒",
+        "description": "可配置的每日提醒功能，帮助你建立稳定的练习习惯"
+      },
+      {
+        "title": "多平台支持",
+        "description": "支持iOS和Android，数据完全存储在本地，保护你的隐私安全"
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "使用方法",
+    "subtitle": "只需四个简单步骤，开始你的身份认知转变之旅",
+    "steps": [
+      {
+        "title": "选择目标",
+        "description": "选择想要改变的习惯或自定义输入相关行为"
+      },
+      {
+        "title": "创建声明",
+        "description": "系统生成个性化的正面声明语句，可自由编辑"
+      },
+      {
+        "title": "录制语音",
+        "description": "用自己的声音慢速清晰地录制声明语句"
+      },
+      {
+        "title": "每日练习",
+        "description": "每天播放录音进行打卡，重塑潜意识认知"
+      }
+    ]
+  },
+  "screenshots": {
+    "title": "应用界面预览",
+    "subtitle": "简洁优雅的设计，温和疗愈的视觉体验",
+    "items": [
+      {
+        "title": "设置目标",
+        "description": "智能引导创建个性化习惯目标"
+      },
+      {
+        "title": "主页面板",
+        "description": "清晰展示习惯列表和打卡状态"
+      },
+      {
+        "title": "每日练习",
+        "description": "一键播放语音，轻松完成练习"
+      },
+      {
+        "title": "数据统计",
+        "description": "直观的进度追踪和成就展示"
+      }
+    ],
+    "comingSoonBadge": "🚀 应用即将发布，敬请期待",
+    "comingSoonDesc": "我们正在努力完善应用，很快就能与大家见面",
+    "appStore": "📱 即将登陆 App Store",
+    "googlePlay": "🤖 即将登陆 Google Play"
+  },
+  "cta": {
+    "title": "准备好改变了吗？",
+    "description": "关注我们，第一时间获取应用发布通知，与我们一起开启身份认知转变之旅",
+    "followUpdates": "关注发布动态",
+    "userGuide": "查看使用指南"
+  },
+  "footer": {
+    "subtitle": "不止是戒掉，而是变更好",
+    "description": "基于心理学原理的习惯改变应用，通过自我语音明示重塑潜意识，实现持久的行为改变。",
+    "product": "产品",
+    "productLinks": [
+      "功能介绍",
+      "使用指南", 
+      "常见问题"
+    ],
+    "support": "支持",
+    "supportLinks": [
+      "帮助中心",
+      "联系我们",
+      "隐私政策"
+    ],
+    "copyright": "Neverr. All rights reserved."
+  },
+  "mobile": {
+    "features": "功能介绍",
+    "howItWorks": "使用原理",
+    "screenshots": "应用截图",
+    "appStore": "📱 即将登陆 App Store",
+    "googlePlay": "🤖 即将登陆 Google Play"
+  }
+} 

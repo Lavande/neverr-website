@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How It Works", 
+    "screenshots": "Screenshots",
+    "comingSoon": "Coming Soon"
+  },
+  "hero": {
+    "badge": "Psychology-based Habit Change App",
+    "title": "Neverr",
+    "subtitle": "Not just quitting, but becoming better",
+    "description": "Reshape your subconscious through \"self-voice affirmation\" to make change feel natural. It's not about \"quitting\" bad habits, but becoming someone who \"never does those things.\"",
+    "comingSoon": "Coming Soon",
+    "learnMore": "Learn More"
+  },
+  "philosophy": {
+    "title": "The Key to Change is Psychological Cognition",
+    "subtitle": "Neverr is based on cognitive psychology principles, redefining your identity through positive self-declarations",
+    "wrong": "I want to quit smoking",
+    "wrongDesc": "This expression implies you're essentially a smoker who's just trying to \"quit\"",
+    "right": "I never smoke",
+    "rightDesc": "This expression redefines your identity - you're essentially someone who doesn't smoke",
+    "cardTitle": "Subconscious Reshaping Principle",
+    "cardDesc": "When you repeatedly say \"I never...\" statements in your own voice:",
+    "cardPoints": [
+      "Your brain gradually accepts this new identity",
+      "Your subconscious automatically rejects related negative behaviors", 
+      "Change becomes more natural and lasting"
+    ]
+  },
+  "features": {
+    "title": "Core Features",
+    "subtitle": "Simple yet powerful tools to help you build new identity awareness and achieve lasting behavioral change",
+    "items": [
+      {
+        "title": "Smart Goal Creation",
+        "description": "Choose from preset habit categories or custom input, system automatically generates personalized positive affirmation statements"
+      },
+      {
+        "title": "Voice Recording",
+        "description": "Record personalized affirmations in your own voice, because your own voice has the strongest influence on your subconscious"
+      },
+      {
+        "title": "Daily Practice",
+        "description": "Play your recorded voice daily for check-in practice, reinforcing new identity awareness through repetition"
+      },
+      {
+        "title": "Progress Statistics",
+        "description": "Intuitive data display of consecutive check-in days, completion rates and other key metrics to motivate continuous progress"
+      },
+      {
+        "title": "Smart Reminders",
+        "description": "Configurable daily reminder function to help you establish stable practice habits"
+      },
+      {
+        "title": "Multi-platform Support",
+        "description": "Supports iOS and Android, data stored completely locally to protect your privacy and security"
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Just four simple steps to start your identity transformation journey",
+    "steps": [
+      {
+        "title": "Choose Goal",
+        "description": "Select the habit you want to change or input custom related behaviors"
+      },
+      {
+        "title": "Create Affirmation",
+        "description": "System generates personalized positive affirmation statements that you can freely edit"
+      },
+      {
+        "title": "Record Voice",
+        "description": "Use your own voice to slowly and clearly record the affirmation statements"
+      },
+      {
+        "title": "Daily Practice",
+        "description": "Play your recordings daily for check-ins to reshape subconscious awareness"
+      }
+    ]
+  },
+  "screenshots": {
+    "title": "App Interface Preview",
+    "subtitle": "Clean and elegant design with a gentle, healing visual experience",
+    "items": [
+      {
+        "title": "Set Goal",
+        "description": "Intelligent guidance for creating personalized habit goals"
+      },
+      {
+        "title": "Main Dashboard",
+        "description": "Clear display of habit list and check-in status"
+      },
+      {
+        "title": "Daily Practice",
+        "description": "One-click voice playback for easy practice completion"
+      },
+      {
+        "title": "Data Statistics",
+        "description": "Intuitive progress tracking and achievement display"
+      }
+    ],
+    "comingSoonBadge": "🚀 App launching soon, stay tuned",
+    "comingSoonDesc": "We're working hard to perfect the app and will meet you soon",
+    "appStore": "📱 Coming to App Store",
+    "googlePlay": "🤖 Coming to Google Play"
+  },
+  "cta": {
+    "title": "Ready to Change?",
+    "description": "Follow us to get the first notification when the app launches, and join us on the journey of identity transformation",
+    "followUpdates": "Follow Launch Updates",
+    "userGuide": "View User Guide"
+  },
+  "footer": {
+    "subtitle": "Not just quitting, but becoming better",
+    "description": "A psychology-based habit change app that reshapes the subconscious through self-voice affirmation to achieve lasting behavioral change.",
+    "product": "Product",
+    "productLinks": [
+      "Features",
+      "User Guide", 
+      "FAQ"
+    ],
+    "support": "Support",
+    "supportLinks": [
+      "Help Center",
+      "Contact Us",
+      "Privacy Policy"
+    ],
+    "copyright": "Neverr. All rights reserved."
+  },
+  "mobile": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "screenshots": "Screenshots",
+    "appStore": "📱 Coming to App Store",
+    "googlePlay": "🤖 Coming to Google Play"
+  }
+} 
