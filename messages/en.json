@@ -135,5 +135,53 @@
     "screenshots": "Screenshots",
     "appStore": "📱 Coming to App Store",
     "googlePlay": "🤖 Coming to Google Play"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2025",
+    "intro": "This Privacy Policy describes how Neverr (\"we\", \"our\", or \"us\") handles your information when you use our mobile application (the \"Service\").",
+    "noDataCollection": {
+      "title": "No Data Collection",
+      "content": "Neverr is designed with privacy as a fundamental principle. We do not collect, store, or process any personal data from our users. The app operates entirely offline and does not require an internet connection."
+    },
+    "localStorage": {
+      "title": "Local Data Storage", 
+      "content": "All your data, including your habit goals, voice recordings, and progress statistics, are stored exclusively on your device. This data never leaves your device and is not transmitted to our servers or any third-party services."
+    },
+    "noInternetRequired": {
+      "title": "No Internet Required",
+      "content": "Neverr functions completely offline. The app does not connect to the internet, send analytics, or communicate with external servers. Your privacy is guaranteed by design."
+    },
+    "dataTypes": {
+      "title": "Types of Data Stored Locally",
+      "content": "The following types of data are stored only on your device:",
+      "items": [
+        "Habit goals and affirmation statements you create",
+        "Voice recordings of your personal affirmations",
+        "Daily check-in progress and statistics",
+        "App settings and preferences",
+        "No personal identifiers or account information"
+      ]
+    },
+    "dataControl": {
+      "title": "Your Data Control",
+      "content": "Since all data is stored locally on your device, you have complete control over your information. You can delete the app at any time to remove all associated data from your device."
+    },
+    "thirdPartyServices": {
+      "title": "Third-Party Services",
+      "content": "Neverr does not integrate with any third-party services, analytics platforms, or advertising networks. No data is shared with external parties."
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "content": "Your data remains on your device for as long as you keep the app installed. We do not have access to your data and cannot retrieve or delete it remotely."
+    },
+    "updates": {
+      "title": "Policy Updates",
+      "content": "We may update this Privacy Policy from time to time. Any changes will be reflected in the \"Last updated\" date at the top of this policy. We encourage you to review this policy periodically."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have any questions about this Privacy Policy, you can contact us at: [contact information will be provided upon app release]"
+    }
   }
 } 

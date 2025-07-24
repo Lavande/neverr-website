@@ -433,7 +433,7 @@ export function HomeContent({ locale }: HomeContentProps) {
               <ul className="space-y-2 text-muted-foreground">
                 <li><a href="#" className="hover:text-foreground transition-colors">{messages.footer.supportLinks[0]}</a></li>
                 <li><a href="#" className="hover:text-foreground transition-colors">{messages.footer.supportLinks[1]}</a></li>
-                <li><a href="#" className="hover:text-foreground transition-colors">{messages.footer.supportLinks[2]}</a></li>
+                <li><a href={`/${validLocale}/privacy`} className="hover:text-foreground transition-colors">{messages.footer.supportLinks[2]}</a></li>
               </ul>
             </div>
           </div>
