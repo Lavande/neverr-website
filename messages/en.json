@@ -11,7 +11,9 @@
     "subtitle": "Not just quitting, but becoming better",
     "description": "Reshape your subconscious through \"self-voice affirmation\" to make change feel natural. It's not about \"quitting\" bad habits, but becoming someone who \"never does those things.\"",
     "comingSoon": "Coming Soon",
-    "learnMore": "Learn More"
+    "learnMore": "Learn More",
+    "downloadAndroid": "Download Android APK",
+    "openSource": "🔓 Open Source Project"
   },
   "philosophy": {
     "title": "The Key to Change is Psychological Cognition",
@@ -104,7 +106,8 @@
     "comingSoonBadge": "🚀 App launching soon, stay tuned",
     "comingSoonDesc": "We're working hard to perfect the app and will meet you soon",
     "appStore": "📱 Coming to App Store",
-    "googlePlay": "🤖 Coming to Google Play"
+    "googlePlay": "🤖 Coming to Google Play",
+    "downloadAndroid": "📱 Download Android APK"
   },
   "cta": {
     "title": "Ready to Change?",
@@ -115,17 +118,11 @@
   "footer": {
     "subtitle": "Not just quitting, but becoming better",
     "description": "A psychology-based habit change app that reshapes the subconscious through self-voice affirmation to achieve lasting behavioral change.",
-    "product": "Product",
-    "productLinks": [
-      "Features",
-      "User Guide", 
-      "FAQ"
-    ],
-    "support": "Support",
-    "supportLinks": [
-      "Help Center",
+    "links": "Links",
+    "linkItems": [
       "Contact Us",
-      "Privacy Policy"
+      "Privacy Policy",
+      "Source Code"
     ],
     "copyright": "Neverr. All rights reserved."
   },
@@ -134,7 +131,8 @@
     "howItWorks": "How It Works",
     "screenshots": "Screenshots",
     "appStore": "📱 Coming to App Store",
-    "googlePlay": "🤖 Coming to Google Play"
+    "googlePlay": "🤖 Coming to Google Play",
+    "downloadAndroid": "📱 Download Android APK"
   },
   "privacy": {
     "title": "Privacy Policy",

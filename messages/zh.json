@@ -11,7 +11,9 @@
     "subtitle": "不止是戒掉，而是变更好",
     "description": "通过\"自我语音明示\"重塑潜意识，让改变变得自然而然。不是\"戒除\"坏习惯，而是成为\"从来不做那些事\"的人。",
     "comingSoon": "即将发布 - Coming Soon",
-    "learnMore": "了解更多"
+    "learnMore": "了解更多",
+    "downloadAndroid": "下载安卓 APK",
+    "openSource": "🔓 开源项目"
   },
   "philosophy": {
     "title": "改变的关键在于心理认知",
@@ -104,7 +106,8 @@
     "comingSoonBadge": "🚀 应用即将发布，敬请期待",
     "comingSoonDesc": "我们正在努力完善应用，很快就能与大家见面",
     "appStore": "📱 即将登陆 App Store",
-    "googlePlay": "🤖 即将登陆 Google Play"
+    "googlePlay": "🤖 即将登陆 Google Play",
+    "downloadAndroid": "📱 下载安卓 APK"
   },
   "cta": {
     "title": "准备好改变了吗？",
@@ -115,17 +118,11 @@
   "footer": {
     "subtitle": "不止是戒掉，而是变更好",
     "description": "基于心理学原理的习惯改变应用，通过自我语音明示重塑潜意识，实现持久的行为改变。",
-    "product": "产品",
-    "productLinks": [
-      "功能介绍",
-      "使用指南", 
-      "常见问题"
-    ],
-    "support": "支持",
-    "supportLinks": [
-      "帮助中心",
+    "links": "链接",
+    "linkItems": [
       "联系我们",
-      "隐私政策"
+      "隐私政策",
+      "项目源码"
     ],
     "copyright": "Neverr. All rights reserved."
   },
@@ -134,7 +131,8 @@
     "howItWorks": "使用原理",
     "screenshots": "应用截图",
     "appStore": "📱 即将登陆 App Store",
-    "googlePlay": "🤖 即将登陆 Google Play"
+    "googlePlay": "🤖 即将登陆 Google Play",
+    "downloadAndroid": "📱 下载安卓 APK"
   },
   "privacy": {
     "title": "隐私政策",

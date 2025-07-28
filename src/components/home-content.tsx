@@ -141,6 +141,11 @@ export function HomeContent({ locale }: HomeContentProps) {
                     <a href="#screenshots" className="text-lg font-medium text-foreground hover:text-primary transition-colors">{messages.mobile.screenshots}</a>
                     <LanguageSwitcher currentLocale={validLocale} />
                     <div className="space-y-4 mt-8">
+                      <Button asChild className="w-full">
+                        <a href="https://github.com/Lavande/neverr-app/releases" target="_blank" rel="noopener noreferrer">
+                          {messages.mobile.downloadAndroid}
+                        </a>
+                      </Button>
                       <Button disabled className="w-full bg-muted text-muted-foreground cursor-not-allowed">
                         {messages.mobile.appStore}
                       </Button>
@@ -159,9 +164,16 @@ export function HomeContent({ locale }: HomeContentProps) {
       {/* Hero Section */}
       <section className="py-16 lg:py-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="text-center">
-          <Badge variant="secondary" className="mb-6 bg-secondary/10 text-secondary border-secondary/20">
-            {messages.hero.badge}
-          </Badge>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-6">
+            <Badge variant="secondary" className="bg-secondary/10 text-secondary border-secondary/20">
+              {messages.hero.badge}
+            </Badge>
+            <Badge variant="outline" className="bg-primary/5 text-primary border-primary/20">
+              <a href="https://github.com/Lavande/neverr-app" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
+                {messages.hero.openSource}
+              </a>
+            </Badge>
+          </div>
           <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
             <span className="neverr-text-gradient">{messages.hero.title}</span>
           </h1>
@@ -172,6 +184,11 @@ export function HomeContent({ locale }: HomeContentProps) {
             {messages.hero.description}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
+            <Button asChild size="lg" className="text-base">
+              <a href="https://github.com/Lavande/neverr-app/releases" target="_blank" rel="noopener noreferrer">
+                {messages.hero.downloadAndroid}
+              </a>
+            </Button>
             <Button disabled className="bg-muted text-muted-foreground cursor-not-allowed text-base">
               {messages.hero.comingSoon}
             </Button>
@@ -316,31 +333,20 @@ export function HomeContent({ locale }: HomeContentProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {screenshots.map((screenshot, index) => (
               <div key={index} className="group hover:scale-105 transition-all duration-300">
-                {/* iPhone Frame */}
-                <div className="relative mx-auto max-w-[280px]">
-                  {/* iPhone 外框 */}
-                  <div className="relative bg-black rounded-[3rem] p-3 shadow-2xl">
+                {/* iPhone 16 Plus Frame */}
+                <div className="relative mx-auto max-w-[260px]">
+                  {/* iPhone 外框 - 简洁的黑色边框 */}
+                  <div className="relative bg-black rounded-[2.8rem] p-2.5 shadow-2xl">
                     {/* iPhone 内框 */}
-                    <div className="relative bg-white rounded-[2.5rem] overflow-hidden">
-                      {/* 状态栏区域 */}
-                      <div className="h-8 bg-white flex items-center justify-center relative">
-                        {/* 刘海 */}
-                        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-24 h-6 bg-black rounded-b-2xl"></div>
-                      </div>
-                      
-                      {/* 屏幕内容区域 */}
-                      <div className="aspect-[9/16] relative">
+                    <div className="relative bg-white rounded-[2.3rem] overflow-hidden" style={{ aspectRatio: '1290/2796' }}>
+                      {/* 屏幕内容区域 - 完整显示截图 */}
+                      <div className="relative w-full h-full">
                         <Image
                           src={screenshot.image}
                           alt={screenshot.title}
                           fill
                           className="object-cover"
                         />
-                      </div>
-                      
-                      {/* 底部安全区域 */}
-                      <div className="h-8 bg-white flex items-center justify-center">
-                        <div className="w-32 h-1 bg-black rounded-full"></div>
                       </div>
                     </div>
                   </div>
@@ -363,6 +369,11 @@ export function HomeContent({ locale }: HomeContentProps) {
               {messages.screenshots.comingSoonDesc}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button asChild>
+                <a href="https://github.com/Lavande/neverr-app/releases" target="_blank" rel="noopener noreferrer">
+                  {messages.screenshots.downloadAndroid}
+                </a>
+              </Button>
               <Button disabled className="bg-muted text-muted-foreground cursor-not-allowed">
                 {messages.screenshots.appStore}
               </Button>
@@ -397,7 +408,7 @@ export function HomeContent({ locale }: HomeContentProps) {
       {/* Footer */}
       <footer className="bg-card border-t border-border py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             <div className="col-span-2">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 rounded-lg overflow-hidden">
@@ -420,20 +431,11 @@ export function HomeContent({ locale }: HomeContentProps) {
             </div>
             
             <div>
-              <h4 className="font-semibold mb-4 text-foreground">{messages.footer.product}</h4>
+              <h4 className="font-semibold mb-4 text-foreground">{messages.footer.links}</h4>
               <ul className="space-y-2 text-muted-foreground">
-                <li><a href="#" className="hover:text-foreground transition-colors">{messages.footer.productLinks[0]}</a></li>
-                <li><a href="#" className="hover:text-foreground transition-colors">{messages.footer.productLinks[1]}</a></li>
-                <li><a href="#" className="hover:text-foreground transition-colors">{messages.footer.productLinks[2]}</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h4 className="font-semibold mb-4 text-foreground">{messages.footer.support}</h4>
-              <ul className="space-y-2 text-muted-foreground">
-                <li><a href="#" className="hover:text-foreground transition-colors">{messages.footer.supportLinks[0]}</a></li>
-                <li><a href="#" className="hover:text-foreground transition-colors">{messages.footer.supportLinks[1]}</a></li>
-                <li><a href={`/${validLocale}/privacy`} className="hover:text-foreground transition-colors">{messages.footer.supportLinks[2]}</a></li>
+                <li><a href="mailto:support@neverr.app" className="hover:text-foreground transition-colors">{messages.footer.linkItems[0]}</a></li>
+                <li><a href={`/${validLocale}/privacy`} className="hover:text-foreground transition-colors">{messages.footer.linkItems[1]}</a></li>
+                <li><a href="https://github.com/Lavande/neverr-app" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">{messages.footer.linkItems[2]}</a></li>
               </ul>
             </div>
           </div>
