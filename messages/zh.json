@@ -3,7 +3,9 @@
     "features": "功能",
     "howItWorks": "原理", 
     "screenshots": "截图",
-    "comingSoon": "即将发布"
+    "downloadApp": "下载App",
+    "downloadAndroid": "📱 下载安卓 APK",
+    "downloadIOS": "📱 下载 iOS 版本"
   },
   "hero": {
     "badge": "基于心理学的习惯改变应用",
@@ -105,7 +107,7 @@
     ],
     "comingSoonBadge": "🚀 应用即将发布，敬请期待",
     "comingSoonDesc": "我们正在努力完善应用，很快就能与大家见面",
-    "appStore": "📱 即将登陆 App Store",
+    "appStore": "📱 下载 iOS 版本",
     "googlePlay": "🤖 即将登陆 Google Play",
     "downloadAndroid": "📱 下载安卓 APK"
   },
@@ -130,7 +132,7 @@
     "features": "功能介绍",
     "howItWorks": "使用原理",
     "screenshots": "应用截图",
-    "appStore": "📱 即将登陆 App Store",
+    "appStore": "📱 下载 iOS 版本",
     "googlePlay": "🤖 即将登陆 Google Play",
     "downloadAndroid": "📱 下载安卓 APK"
   },

@@ -120,10 +120,14 @@ export function HomeContent({ locale }: HomeContentProps) {
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
               <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">{messages.nav.features}</a>
-              <a href="#how-it-works" className="text-muted-foreground hover:text-foreground transition-colors">{messages.nav.howItWorks}</a>
+              <a href="#philosophy" className="text-muted-foreground hover:text-foreground transition-colors">{messages.nav.howItWorks}</a>
               <a href="#screenshots" className="text-muted-foreground hover:text-foreground transition-colors">{messages.nav.screenshots}</a>
               <LanguageSwitcher currentLocale={validLocale} />
-              <Button disabled className="bg-muted text-muted-foreground cursor-not-allowed">{messages.nav.comingSoon}</Button>
+              <Button asChild>
+                <a href="#download">
+                  {messages.nav.downloadApp}
+                </a>
+              </Button>
             </div>
             
             {/* Mobile Navigation */}
@@ -134,22 +138,27 @@ export function HomeContent({ locale }: HomeContentProps) {
                     <Menu className="h-6 w-6" />
                   </Button>
                 </SheetTrigger>
-                <SheetContent>
-                  <div className="flex flex-col space-y-6 mt-8">
-                    <a href="#features" className="text-lg font-medium text-foreground hover:text-primary transition-colors">{messages.mobile.features}</a>
-                    <a href="#how-it-works" className="text-lg font-medium text-foreground hover:text-primary transition-colors">{messages.mobile.howItWorks}</a>
-                    <a href="#screenshots" className="text-lg font-medium text-foreground hover:text-primary transition-colors">{messages.mobile.screenshots}</a>
-                    <LanguageSwitcher currentLocale={validLocale} />
-                    <div className="space-y-4 mt-8">
-                      <Button asChild className="w-full">
+                <SheetContent className="px-8 py-8">
+                  <div className="flex flex-col space-y-8 mt-8">
+                    <a href="#features" className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2 px-2 rounded-md hover:bg-accent">{messages.mobile.features}</a>
+                    <a href="#philosophy" className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2 px-2 rounded-md hover:bg-accent">{messages.mobile.howItWorks}</a>
+                    <a href="#screenshots" className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2 px-2 rounded-md hover:bg-accent">{messages.mobile.screenshots}</a>
+                    <a href="#download" className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2 px-2 rounded-md hover:bg-accent">{messages.nav.downloadApp}</a>
+                    <div className="px-2">
+                      <LanguageSwitcher currentLocale={validLocale} />
+                    </div>
+                    <div className="space-y-6 mt-12 px-2">
+                      <Button asChild className="w-full h-12 text-base">
                         <a href="https://github.com/Lavande/neverr-app/releases" target="_blank" rel="noopener noreferrer">
-                          {messages.mobile.downloadAndroid}
+                          {messages.nav.downloadAndroid}
                         </a>
                       </Button>
-                      <Button disabled className="w-full bg-muted text-muted-foreground cursor-not-allowed">
-                        {messages.mobile.appStore}
+                      <Button asChild className="w-full h-12 text-base">
+                        <a href="https://apps.apple.com/app/id6749043243" target="_blank" rel="noopener noreferrer">
+                          {messages.nav.downloadIOS}
+                        </a>
                       </Button>
-                      <Button disabled className="w-full bg-muted text-muted-foreground cursor-not-allowed">
+                      <Button disabled className="w-full h-12 text-base bg-muted text-muted-foreground cursor-not-allowed">
                         {messages.mobile.googlePlay}
                       </Button>
                     </div>
@@ -185,22 +194,21 @@ export function HomeContent({ locale }: HomeContentProps) {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
             <Button asChild size="lg" className="text-base">
-              <a href="https://github.com/Lavande/neverr-app/releases" target="_blank" rel="noopener noreferrer">
-                {messages.hero.downloadAndroid}
+              <a href="#download">
+                {messages.nav.downloadApp}
               </a>
             </Button>
-            <Button disabled className="bg-muted text-muted-foreground cursor-not-allowed text-base">
-              {messages.hero.comingSoon}
-            </Button>
             <Button size="lg" variant="outline" className="text-base">
-              {messages.hero.learnMore}
+              <a href="#philosophy">
+                {messages.hero.learnMore}
+              </a>
             </Button>
           </div>
         </div>
       </section>
 
       {/* Core Philosophy Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-secondary/5">
+      <section id="philosophy" className="py-20 px-4 sm:px-6 lg:px-8 bg-secondary/5">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
@@ -362,7 +370,7 @@ export function HomeContent({ locale }: HomeContentProps) {
           </div>
 
           <div className="text-center mt-16">
-            <div className="inline-flex items-center justify-center px-6 py-3 bg-secondary/10 text-secondary rounded-full border border-secondary/20 mb-6">
+            <div id="download" className="inline-flex items-center justify-center px-6 py-3 bg-secondary/10 text-secondary rounded-full border border-secondary/20 mb-6" style={{ scrollMarginTop: '40vh' }}>
               <span className="text-sm font-medium">{messages.screenshots.comingSoonBadge}</span>
             </div>
             <p className="text-muted-foreground mb-6">
@@ -371,11 +379,13 @@ export function HomeContent({ locale }: HomeContentProps) {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild>
                 <a href="https://github.com/Lavande/neverr-app/releases" target="_blank" rel="noopener noreferrer">
-                  {messages.screenshots.downloadAndroid}
+                  {messages.nav.downloadAndroid}
                 </a>
               </Button>
-              <Button disabled className="bg-muted text-muted-foreground cursor-not-allowed">
-                {messages.screenshots.appStore}
+              <Button asChild>
+                <a href="https://apps.apple.com/app/id6749043243" target="_blank" rel="noopener noreferrer">
+                  {messages.nav.downloadIOS}
+                </a>
               </Button>
               <Button disabled className="bg-muted text-muted-foreground cursor-not-allowed">
                 {messages.screenshots.googlePlay}
@@ -399,7 +409,9 @@ export function HomeContent({ locale }: HomeContentProps) {
               {messages.cta.followUpdates}
             </Button>
             <Button size="lg" variant="outline">
-              {messages.cta.userGuide}
+              <a href="#how-it-works">
+                {messages.cta.userGuide}
+              </a>
             </Button>
           </div>
         </div>

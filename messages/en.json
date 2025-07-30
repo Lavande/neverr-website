@@ -3,7 +3,9 @@
     "features": "Features",
     "howItWorks": "How It Works", 
     "screenshots": "Screenshots",
-    "comingSoon": "Coming Soon"
+    "downloadApp": "Download App",
+    "downloadAndroid": "📱 Download Android APK",
+    "downloadIOS": "📱 Download for iOS"
   },
   "hero": {
     "badge": "Psychology-based Habit Change App",
@@ -105,7 +107,7 @@
     ],
     "comingSoonBadge": "🚀 App launching soon, stay tuned",
     "comingSoonDesc": "We're working hard to perfect the app and will meet you soon",
-    "appStore": "📱 Coming to App Store",
+    "appStore": "📱 Download for iOS",
     "googlePlay": "🤖 Coming to Google Play",
     "downloadAndroid": "📱 Download Android APK"
   },
@@ -130,7 +132,7 @@
     "features": "Features",
     "howItWorks": "How It Works",
     "screenshots": "Screenshots",
-    "appStore": "📱 Coming to App Store",
+    "appStore": "📱 Download for iOS",
     "googlePlay": "🤖 Coming to Google Play",
     "downloadAndroid": "📱 Download Android APK"
   },
