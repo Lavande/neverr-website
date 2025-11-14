@@ -128,6 +128,16 @@
     ],
     "copyright": "Neverr. All rights reserved."
   },
+  "metadata": {
+    "home": {
+      "title": "Neverr - Not just quitting, but becoming better",
+      "description": "A psychology-based habit change app that reshapes your subconscious through self-voice affirmation to achieve lasting behavioral change. Available on iOS and Android."
+    },
+    "privacy": {
+      "title": "Privacy Policy - Neverr",
+      "description": "Learn about Neverr's privacy-first approach. All your data stays on your device - we don't collect, store, or transmit any personal information."
+    }
+  },
   "mobile": {
     "features": "Features",
     "howItWorks": "How It Works",

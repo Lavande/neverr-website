@@ -166,9 +166,32 @@ export async function generateMetadata({ params }: PrivacyPageProps) {
   const { locale } = await params;
   const validLocale: Locale = locale === 'zh' ? 'zh' : 'en';
   const messages = await getMessages(validLocale);
+  const baseUrl = "https://neverr.app";
 
   return {
-    title: `${messages.privacy.title} - Neverr`,
-    description: messages.privacy.intro,
+    title: messages.metadata.privacy.title,
+    description: messages.metadata.privacy.description,
+    metadataBase: new URL(baseUrl),
+    alternates: {
+      canonical: `/${validLocale}/privacy`,
+      languages: {
+        en: "/en/privacy",
+        zh: "/zh/privacy",
+        "x-default": "/en/privacy",
+      },
+    },
+    openGraph: {
+      title: messages.metadata.privacy.title,
+      description: messages.metadata.privacy.description,
+      url: `${baseUrl}/${validLocale}/privacy`,
+      siteName: "Neverr",
+      locale: validLocale === "zh" ? "zh_CN" : "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: messages.metadata.privacy.title,
+      description: messages.metadata.privacy.description,
+    },
   };
 } 

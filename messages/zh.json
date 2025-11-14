@@ -128,6 +128,16 @@
     ],
     "copyright": "Neverr. All rights reserved."
   },
+  "metadata": {
+    "home": {
+      "title": "Neverr - 不止是戒掉，而是变更好",
+      "description": "基于心理学原理的习惯改变应用，通过自我语音明示重塑潜意识，实现持久的行为改变。支持 iOS 和 Android。"
+    },
+    "privacy": {
+      "title": "隐私政策 - Neverr",
+      "description": "了解 Neverr 的隐私优先理念。您的所有数据都保存在您的设备上 - 我们不收集、存储或传输任何个人信息。"
+    }
+  },
   "mobile": {
     "features": "功能介绍",
     "howItWorks": "使用原理",
